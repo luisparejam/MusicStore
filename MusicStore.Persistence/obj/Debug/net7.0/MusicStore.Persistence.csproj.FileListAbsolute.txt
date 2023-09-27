@@ -1,0 +1,15 @@
+C:\Temp\LuisCode\MusicStore\MusicStore.Persistence\bin\Debug\net7.0\MusicStore.Persistence.deps.json
+C:\Temp\LuisCode\MusicStore\MusicStore.Persistence\bin\Debug\net7.0\MusicStore.Persistence.dll
+C:\Temp\LuisCode\MusicStore\MusicStore.Persistence\bin\Debug\net7.0\MusicStore.Persistence.pdb
+C:\Temp\LuisCode\MusicStore\MusicStore.Persistence\bin\Debug\net7.0\MusicStore.Entities.dll
+C:\Temp\LuisCode\MusicStore\MusicStore.Persistence\bin\Debug\net7.0\MusicStore.Entities.pdb
+C:\Temp\LuisCode\MusicStore\MusicStore.Persistence\obj\Debug\net7.0\MusicStore.Persistence.csproj.AssemblyReference.cache
+C:\Temp\LuisCode\MusicStore\MusicStore.Persistence\obj\Debug\net7.0\MusicStore.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Temp\LuisCode\MusicStore\MusicStore.Persistence\obj\Debug\net7.0\MusicStore.Persistence.AssemblyInfoInputs.cache
+C:\Temp\LuisCode\MusicStore\MusicStore.Persistence\obj\Debug\net7.0\MusicStore.Persistence.AssemblyInfo.cs
+C:\Temp\LuisCode\MusicStore\MusicStore.Persistence\obj\Debug\net7.0\MusicStore.Persistence.csproj.CoreCompileInputs.cache
+C:\Temp\LuisCode\MusicStore\MusicStore.Persistence\obj\Debug\net7.0\MusicStore.Persistence.csproj.CopyComplete
+C:\Temp\LuisCode\MusicStore\MusicStore.Persistence\obj\Debug\net7.0\MusicStore.Persistence.dll
+C:\Temp\LuisCode\MusicStore\MusicStore.Persistence\obj\Debug\net7.0\refint\MusicStore.Persistence.dll
+C:\Temp\LuisCode\MusicStore\MusicStore.Persistence\obj\Debug\net7.0\MusicStore.Persistence.pdb
+C:\Temp\LuisCode\MusicStore\MusicStore.Persistence\obj\Debug\net7.0\ref\MusicStore.Persistence.dll
