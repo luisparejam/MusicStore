@@ -117,3 +117,5 @@ C:\Temp\LuisCode\MusicStore\Music Store\obj\Debug\net7.0\refint\Music Store.dll
 C:\Temp\LuisCode\MusicStore\Music Store\obj\Debug\net7.0\Music Store.pdb
 C:\Temp\LuisCode\MusicStore\Music Store\obj\Debug\net7.0\Music Store.genruntimeconfig.cache
 C:\Temp\LuisCode\MusicStore\Music Store\obj\Debug\net7.0\ref\Music Store.dll
+C:\Temp\LuisCode\MusicStore\Music Store\bin\Debug\net7.0\MusicStore.Dto.dll
+C:\Temp\LuisCode\MusicStore\Music Store\bin\Debug\net7.0\MusicStore.Dto.pdb

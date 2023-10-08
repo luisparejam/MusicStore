@@ -1,8 +1,8 @@
 {
   "Version": 1,
-  "Hash": "3NE6pExe5EKgmJWZ6doXh4TPIPjMYcOkLHJBwj1aO5Q=",
-  "Source": "Music Store",
-  "BasePath": "_content/Music Store",
+  "Hash": "xbOWgYNU5u23AcHY0x9RxRvbpD9V4NqwP1ggOho2TSA=",
+  "Source": "MusicStoreApi",
+  "BasePath": "_content/MusicStoreApi",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],

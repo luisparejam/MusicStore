@@ -1,4 +1,5 @@
-﻿using MusicStore.Entities;
+﻿using Microsoft.EntityFrameworkCore;
+using MusicStore.Entities;
 using MusicStore.Persistence;
 
 namespace MusicStore.Repositories
@@ -12,38 +13,45 @@ namespace MusicStore.Repositories
             _context = context;
         }
 
-        public List<Genre> List()
+        public async Task<List<Genre>> List()
         {
-            return _context.Genres.ToList();
+            return await _context.Set<Genre>()
+                .AsNoTracking()
+                .ToListAsync();
         }
 
-        public Genre? FindById(int id)
+        public async Task<Genre?> FindById(int id)
         {
-            return _context.Genres.Find(id);
+            return await _context.Set<Genre>().FindAsync(id);
         }
 
-        public void Add(Genre genre)
+        public async Task Add(Genre genre)
         {
-            _context.Genres.Add(genre);
-            _context.SaveChanges();
+            await _context.Set<Genre>().AddAsync(genre);
+            await _context.SaveChangesAsync();
         }
-        public void Update(int id, Genre genre)
+        public async Task Update(int id, Genre genre)
         {
-            var registro = FindById(id);
+            var registro = await FindById(id);
             if (registro is not null)
             {
                 registro.Name = genre.Name;
                 registro.Status = genre.Status;
 
-                _context.SaveChanges();
+                await _context.SaveChangesAsync();
+            }
+            else
+            {
+                throw new InvalidOperationException($"No se encontro el registro con el ID {id}");
             }
         }
-        public void Delete(int id)
+        public async Task Delete(int id)
         {
-            var registro = FindById(id);
+            var registro = await FindById(id);
             if (registro is not null)
             {
-                _context.Genres.Remove(registro);
+                _context.Set<Genre>().Remove(registro);
+                await _context.SaveChangesAsync();
             }
             else
             {

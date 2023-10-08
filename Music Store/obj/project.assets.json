@@ -1160,6 +1160,16 @@
           }
         }
       },
+      "MusicStore.Dto/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/MusicStore.Dto.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MusicStore.Dto.dll": {}
+        }
+      },
       "MusicStore.Entities/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
@@ -3362,6 +3372,11 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "MusicStore.Dto/1.0.0": {
+      "type": "project",
+      "path": "../MusicStore.Dto/MusicStore.Dto.csproj",
+      "msbuildProject": "../MusicStore.Dto/MusicStore.Dto.csproj"
+    },
     "MusicStore.Entities/1.0.0": {
       "type": "project",
       "path": "../MusicStore.Entities/MusicStore.Entities.csproj",
@@ -3385,6 +3400,7 @@
       "Microsoft.EntityFrameworkCore.Design >= 7.0.11",
       "Microsoft.EntityFrameworkCore.SqlServer >= 7.0.11",
       "Microsoft.EntityFrameworkCore.Tools >= 7.0.11",
+      "MusicStore.Dto >= 1.0.0",
       "MusicStore.Entities >= 1.0.0",
       "MusicStore.Persistence >= 1.0.0",
       "MusicStore.Repositories >= 1.0.0",
@@ -3397,9 +3413,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Temp\\LuisCode\\MusicStore\\Music Store\\Music Store.csproj",
-      "projectName": "Music Store",
-      "projectPath": "C:\\Temp\\LuisCode\\MusicStore\\Music Store\\Music Store.csproj",
+      "projectUniqueName": "C:\\Temp\\LuisCode\\MusicStore\\Music Store\\MusicStoreApi.csproj",
+      "projectName": "MusicStoreApi",
+      "projectPath": "C:\\Temp\\LuisCode\\MusicStore\\Music Store\\MusicStoreApi.csproj",
       "packagesPath": "C:\\Users\\n95491\\.nuget\\packages\\",
       "outputPath": "C:\\Temp\\LuisCode\\MusicStore\\Music Store\\obj\\",
       "projectStyle": "PackageReference",
@@ -3418,6 +3434,9 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
+            "C:\\Temp\\LuisCode\\MusicStore\\MusicStore.Dto\\MusicStore.Dto.csproj": {
+              "projectPath": "C:\\Temp\\LuisCode\\MusicStore\\MusicStore.Dto\\MusicStore.Dto.csproj"
+            },
             "C:\\Temp\\LuisCode\\MusicStore\\MusicStore.Entities\\MusicStore.Entities.csproj": {
               "projectPath": "C:\\Temp\\LuisCode\\MusicStore\\MusicStore.Entities\\MusicStore.Entities.csproj"
             },

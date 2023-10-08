@@ -1,0 +1,12 @@
+C:\Temp\LuisCode\MusicStore\MusicStore.Dto\bin\Debug\net7.0\MusicStore.Dto.deps.json
+C:\Temp\LuisCode\MusicStore\MusicStore.Dto\bin\Debug\net7.0\MusicStore.Dto.dll
+C:\Temp\LuisCode\MusicStore\MusicStore.Dto\bin\Debug\net7.0\MusicStore.Dto.pdb
+C:\Temp\LuisCode\MusicStore\MusicStore.Dto\obj\Debug\net7.0\MusicStore.Dto.csproj.AssemblyReference.cache
+C:\Temp\LuisCode\MusicStore\MusicStore.Dto\obj\Debug\net7.0\MusicStore.Dto.GeneratedMSBuildEditorConfig.editorconfig
+C:\Temp\LuisCode\MusicStore\MusicStore.Dto\obj\Debug\net7.0\MusicStore.Dto.AssemblyInfoInputs.cache
+C:\Temp\LuisCode\MusicStore\MusicStore.Dto\obj\Debug\net7.0\MusicStore.Dto.AssemblyInfo.cs
+C:\Temp\LuisCode\MusicStore\MusicStore.Dto\obj\Debug\net7.0\MusicStore.Dto.csproj.CoreCompileInputs.cache
+C:\Temp\LuisCode\MusicStore\MusicStore.Dto\obj\Debug\net7.0\MusicStore.Dto.dll
+C:\Temp\LuisCode\MusicStore\MusicStore.Dto\obj\Debug\net7.0\refint\MusicStore.Dto.dll
+C:\Temp\LuisCode\MusicStore\MusicStore.Dto\obj\Debug\net7.0\MusicStore.Dto.pdb
+C:\Temp\LuisCode\MusicStore\MusicStore.Dto\obj\Debug\net7.0\ref\MusicStore.Dto.dll

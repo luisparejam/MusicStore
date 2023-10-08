@@ -1,5 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using MusicStore.Entities;
+using System.Reflection;
 
 namespace MusicStore.Persistence
 {
@@ -11,17 +12,12 @@ namespace MusicStore.Persistence
 
         }
 
-        public DbSet<Genre> Genres { get; set; } = default!;
-
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
 
-            // Fluent API
-
-            modelBuilder.Entity<Genre>()
-                .Property(p => p.Name)
-                .HasMaxLength(50);
+            // Esta linea va a traer toda la configuracion de las tablas asociadas a la aplicacion
+            modelBuilder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
 
             // Si queremos usar esquema
             //modelBuilder.Entity<Genre>()

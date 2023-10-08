@@ -1,0 +1,350 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Temp\\LuisCode\\MusicStore\\Music Store\\MusicStoreApi.csproj": {}
+  },
+  "projects": {
+    "C:\\Temp\\LuisCode\\MusicStore\\Music Store\\MusicStoreApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Temp\\LuisCode\\MusicStore\\Music Store\\MusicStoreApi.csproj",
+        "projectName": "MusicStoreApi",
+        "projectPath": "C:\\Temp\\LuisCode\\MusicStore\\Music Store\\MusicStoreApi.csproj",
+        "packagesPath": "C:\\Users\\n95491\\.nuget\\packages\\",
+        "outputPath": "C:\\Temp\\LuisCode\\MusicStore\\Music Store\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\n95491\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Temp\\LuisCode\\MusicStore\\MusicStore.Dto\\MusicStore.Dto.csproj": {
+                "projectPath": "C:\\Temp\\LuisCode\\MusicStore\\MusicStore.Dto\\MusicStore.Dto.csproj"
+              },
+              "C:\\Temp\\LuisCode\\MusicStore\\MusicStore.Entities\\MusicStore.Entities.csproj": {
+                "projectPath": "C:\\Temp\\LuisCode\\MusicStore\\MusicStore.Entities\\MusicStore.Entities.csproj"
+              },
+              "C:\\Temp\\LuisCode\\MusicStore\\MusicStore.Persistence\\MusicStore.Persistence.csproj": {
+                "projectPath": "C:\\Temp\\LuisCode\\MusicStore\\MusicStore.Persistence\\MusicStore.Persistence.csproj"
+              },
+              "C:\\Temp\\LuisCode\\MusicStore\\MusicStore.Repositories\\MusicStore.Repositories.csproj": {
+                "projectPath": "C:\\Temp\\LuisCode\\MusicStore\\MusicStore.Repositories\\MusicStore.Repositories.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[7.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.11, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Temp\\LuisCode\\MusicStore\\MusicStore.Dto\\MusicStore.Dto.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Temp\\LuisCode\\MusicStore\\MusicStore.Dto\\MusicStore.Dto.csproj",
+        "projectName": "MusicStore.Dto",
+        "projectPath": "C:\\Temp\\LuisCode\\MusicStore\\MusicStore.Dto\\MusicStore.Dto.csproj",
+        "packagesPath": "C:\\Users\\n95491\\.nuget\\packages\\",
+        "outputPath": "C:\\Temp\\LuisCode\\MusicStore\\MusicStore.Dto\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\n95491\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Temp\\LuisCode\\MusicStore\\MusicStore.Entities\\MusicStore.Entities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Temp\\LuisCode\\MusicStore\\MusicStore.Entities\\MusicStore.Entities.csproj",
+        "projectName": "MusicStore.Entities",
+        "projectPath": "C:\\Temp\\LuisCode\\MusicStore\\MusicStore.Entities\\MusicStore.Entities.csproj",
+        "packagesPath": "C:\\Users\\n95491\\.nuget\\packages\\",
+        "outputPath": "C:\\Temp\\LuisCode\\MusicStore\\MusicStore.Entities\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\n95491\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Temp\\LuisCode\\MusicStore\\MusicStore.Persistence\\MusicStore.Persistence.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Temp\\LuisCode\\MusicStore\\MusicStore.Persistence\\MusicStore.Persistence.csproj",
+        "projectName": "MusicStore.Persistence",
+        "projectPath": "C:\\Temp\\LuisCode\\MusicStore\\MusicStore.Persistence\\MusicStore.Persistence.csproj",
+        "packagesPath": "C:\\Users\\n95491\\.nuget\\packages\\",
+        "outputPath": "C:\\Temp\\LuisCode\\MusicStore\\MusicStore.Persistence\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\n95491\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Temp\\LuisCode\\MusicStore\\MusicStore.Entities\\MusicStore.Entities.csproj": {
+                "projectPath": "C:\\Temp\\LuisCode\\MusicStore\\MusicStore.Entities\\MusicStore.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.11, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Temp\\LuisCode\\MusicStore\\MusicStore.Repositories\\MusicStore.Repositories.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Temp\\LuisCode\\MusicStore\\MusicStore.Repositories\\MusicStore.Repositories.csproj",
+        "projectName": "MusicStore.Repositories",
+        "projectPath": "C:\\Temp\\LuisCode\\MusicStore\\MusicStore.Repositories\\MusicStore.Repositories.csproj",
+        "packagesPath": "C:\\Users\\n95491\\.nuget\\packages\\",
+        "outputPath": "C:\\Temp\\LuisCode\\MusicStore\\MusicStore.Repositories\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\n95491\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Temp\\LuisCode\\MusicStore\\MusicStore.Entities\\MusicStore.Entities.csproj": {
+                "projectPath": "C:\\Temp\\LuisCode\\MusicStore\\MusicStore.Entities\\MusicStore.Entities.csproj"
+              },
+              "C:\\Temp\\LuisCode\\MusicStore\\MusicStore.Persistence\\MusicStore.Persistence.csproj": {
+                "projectPath": "C:\\Temp\\LuisCode\\MusicStore\\MusicStore.Persistence\\MusicStore.Persistence.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
